@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# ✅ Fix: Page Config at the very top
+# Fix: Page Config at the very top
 st.set_page_config(
     page_title="Growth Mindset Journey",
     page_icon="📊",
@@ -10,10 +10,11 @@ st.set_page_config(
 )
 
 # Sidebar Navigation
-st.sidebar.image("https://upload.wikimedia.org/wikipedia/commons/6/6b/Growth_icon.svg", width=50)
+# st.sidebar.image("https://upload.wikimedia.org/wikipedia/commons/6/6b/Growth_icon.svg", width=50)
 st.sidebar.title("Growth Mindset")
 st.sidebar.markdown("### Navigation")
-menu = st.sidebar.radio("", ["Dashboard", "Daily Reflection", "Goal Setting", "Resources", "Progress Graphs"])  # ✅ Fix: Corrected "progress Graph" to "Progress Graphs"
+menu = st.sidebar.radio("", ["Dashboard", "Daily Reflection", "Goal Setting", "Resources", "Progress Graphs"])  
+#  Fix: Corrected "progress Graph" to "Progress Graphs"
 
 # Dashboard Page
 if menu == "Dashboard":
