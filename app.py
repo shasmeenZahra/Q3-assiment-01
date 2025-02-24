@@ -40,6 +40,7 @@ elif menu == "Daily Reflection":
     if st.button("Save Reflection"):
         st.success("Your reflection has been saved!")
 
+
 # Goal Setting Page
 elif menu == "Goal Setting":
     st.markdown("## 🎯 Goal Setting")
