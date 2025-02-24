@@ -53,7 +53,7 @@ elif menu == "Resources":
     st.write("- [Carol Dweck on Growth Mindset](https://www.mindsetworks.com)")
     st.write("- [TED Talk on Growth Mindset](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve)")
 
-# ✅ Fix: Change `page` to `menu` for Progress Graphs Page
+#  Fix: Change `page` to `menu` for Progress Graphs Page
 elif menu == "Progress Graphs":
     st.title("📊 Your Progress Over Time")
     st.write("Track your learning journey with visual graphs.")
